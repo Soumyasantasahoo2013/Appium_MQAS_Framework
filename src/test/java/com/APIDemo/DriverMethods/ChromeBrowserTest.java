@@ -39,6 +39,7 @@ public class ChromeBrowserTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://gmail.com");
 		driver.findElement(AppiumBy.xpath("//input[@name='email']")).sendKeys("abc@gmail.com");
+		//thank you
 	}
 	
 
