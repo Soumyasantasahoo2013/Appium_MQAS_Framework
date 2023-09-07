@@ -19,6 +19,7 @@ public class ChromeBrowserTest {
 	@Test
 	public void cheomwTest() throws Throwable
 	{
+		//welcome
 		File f=new File("C:\\Users\\Soumya Santa\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js");
 		
 		AppiumDriverLocalService service = new AppiumServiceBuilder().withAppiumJS(f).withIPAddress("127.0.0.1").usingPort(4723).withTimeout(Duration.ofSeconds(300)).build();
